@@ -1,0 +1,49 @@
+Kwabena 
+
+6.1 You can send get requests in the browser (posts can be used in forms in browser). 
+Requests can be seen in the network tab
+Clicking them gives you their info. 
+ Jquery is another method of sending requsts in the browser, but the browser always does get request to see info.
+
+Curl uses get, delete, put and post. In the browser you load everything for viewing, The browser gets into and posts it if nescescary. 
+Curl can  interact with HTTP links. 
+
+
+a. 
+curl localhost:3000/request
+- Sent a get request
+
+curl -X PUT localhost:3000/request -H 'Content-Type: application/json'
+- Sent a put request
+
+curl -X POST localhost:3000/request -H 'Content-Type: application/json'
+- Sent a post request
+
+curl -X Delete localhost:3000/request -H 'Content-Type: application/json'
+- Sent a delete request
+
+-- Head didn't work
+curl -X Head localhost:3000/request -H 'Content-Type: application/json'
+
+-- Warning: Setting custom HTTP method to HEAD with -X/--request may not work the 
+-- Warning: way you want. Consider using -I/--head instead.
+
+
+-- Added data to npm package.json
+
+
+
+b.The most appropriate reponses for pages undefined by express routes are those that say you aren't mean to be there. 
+They should turn you around and alert you that, that isn't a link.
+
+The Default however is 404 NOT_FOUND
+400 level codes are geneally good for this though. 
+covered in class on friday 
+
+
+6.2
+
+a. Forms in http support get and post. Get and post
+
+b. The form is a JSON format. This is like a string that can be converted and parsed to transmit data across severs with ease.
+When you click the form button for posting it, the action sends it with the HTTP. 
