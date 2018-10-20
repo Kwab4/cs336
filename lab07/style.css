@@ -1,7 +1,12 @@
-a.test {
+h1 {
     font-weight: bold;
+    font-family: "Comic Sans MS";
 }
-
-.inline {
-    display:inline-block;
+input {
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+}
+span {
+    font-weight: bold;
+    font-family: "Comic Sans MS";
 }
