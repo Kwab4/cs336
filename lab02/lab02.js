@@ -35,7 +35,7 @@ Person.prototype.printGreeting = function() {
 }
 
 // implementation
-var frens = ["Megan", "Derek",  "Lauren"];
+var frens = ["Megan", "Ari",  "Lauren"];
 var p1 = new Person("Joshua wilson", "1996/11/15", frens, "What's up, dawg?");
 console.log(p1);
 p1.changeName("Toussaint");
