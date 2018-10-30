@@ -1,5 +1,4 @@
-// Exercise 2.1 - Encapsulation
-// Person object prototype
+//Kwabena Agyei //
 function Person(name, birthdate, friends, greeting) {
 	this.name = name;
 	this.birthdate = birthdate;
